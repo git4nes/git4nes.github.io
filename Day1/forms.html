@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Alien Abduction Order Form</title>
+	<link rel="stylesheet" href="./css (copy)/forms.css">
+	
+</head>
+<body>
+	<div class="box1">
+			<nav>
+				<ul></ul>
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="hobbies.html">Hobbies</a></li>
+				  <li><a href="bookEdit.html">Article</a></li>
+				  <li><a href="learningcss.html">About</a></li>
+				  <li><a href="./forms.html">Application Form</a></li>
+				</ul>
+			  </nav>
+		</div>
+	<div class="wrapper">
+		
+		<section>
+			<h1>Alien Abduction Order Form</h1>
+			<p>Fill out the form below to place an order for an alien abduction by one of our fine UFOs.</p>
+
+		<form action="https://e3vwdl4bpd.execute-api.us-west-2.amazonaws.com/default/API2SES"
+		method="post">
+		<input type="hidden"  name="send_to" value="mail4nesnow@gmail.com">
+			<fieldset>
+
+				<legend>Your contact information</legend>
+
+					<label for="name">Your name </label>
+						<input type="text" id="name" name="name">
+
+					<label for="phone">Phone number</label>
+						<input type="tel" id="phone" name="phone" placeholder="Enter phone"
+						>
+
+					<label for="email">Email</label>
+						<input type="email" id="email" name="email">
+			</fieldset>
+
+			<fieldset>
+				<legend>About your abduction</legend>
+
+				<label for="date">Requested  date</label>
+				<input type="date" id="date" name="date">
+
+				<label for="qty">How many people would you like abducted?</label>
+				<input type="number" id="qty" name="qty" min="1" max="10">
+			
+			<p>What type of UFO do you prefer?</p>
+
+				<label>
+				<input type="radio" name="ufotype" value="classic" checked>
+					Classic oval UFO
+				</label>
+
+				<label>
+					<input type="radio" name="ufotype" value="starwars">
+						Star Wars-style Imperial cruiser
+				</label>
+
+				<label>
+					<input type="radio" name="ufotype" value="battlestar">
+						Battlestar Galactica-style Viper
+				</label>
+
+				<label>
+					<input type="radio" name="ufotype" value="borg">
+						Borg-style cube
+				</label>
+
+		
+				<label for="abductiontype">What type of abduction experience do you want?
+				</label>
+			
+				<select name="abductiontype" id="abductiontype">
+					<option selected>Select one...</option>
+					<option value="tour">Tour of the solar system</option>
+					<option value="dinner">Alien dinner and discussion</option>
+					<option value="dance">Alien dance lessons</option>
+					<option value="whale">Whale watching</option>
+				</select>
+
+				<p>What kind of Alien food do you prefer?</p>
+				<label>
+					<input type="checkbox" name="foodtype" value="alienChicken" checked>
+					Alien Chicken
+				</label>
+
+				<label>
+					<input type="checkbox" name="foodtype" value="alienSoda">
+					Alien Soda
+				</label>
+
+				<label>
+					<input type="checkbox" name="foodtype" value="alienSalad">
+					Alien Salad
+				</label>
+
+				<label>
+					<input type="checkbox" name="foodtype" value="alienWater">
+					Alien Water
+				</label>
+
+				<label>
+					<input type="checkbox" name="foodtype" value="alienPizza">
+					Alien Pizza
+				</label>
+					
+				
+			
+			<label for="comments">Special requests:</label>
+			<textarea name="comments" id="comments" cols="30" rows="10" placeholder="Type your comment here..."></textarea>
+
+			<label>
+				<input type="checkbox" value="subscribe" name="subscribe" id="subcribe" checked> Add me to your email list
+			</label>
+		
+		</fieldset>
+		<button type="button">Submit</button>
+			
+		</form>				
+		</section>
+		<aside>
+			<h3>Our Location</h3>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.319613816779!2d-93.270821!3d44.977818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b3329a733800b1%3A0x2e151ae0d4a5e091!2s60%20South%206th%20St%20%233625%2C%20Minneapolis%2C%20MN%2055402!5e0!3m2!1sen!2sus!4v1654995366127!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			<address>
+				Frontend Masters &middot;
+				60 South 6th Street &middot;
+				Suite 3625 &middot;
+				Minneapolis, MN 55402
+
+				
+			</address>
+		</aside>
+		<script src="js/forms.js"></script>
+	</div>
+	
+</body>
+</html>
+
+
+
+
+

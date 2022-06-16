@@ -1,0 +1,102 @@
+/* my first css */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(93, 107, 112);
+    color: rgb(215, 229, 243);
+    width: 80%;
+    margin-left: 10%;
+   
+    
+}
+img{
+    border: 1px solid rgb(11, 11, 11);
+  
+}
+h1{
+    text-decoration: underline;
+    text-align: center;
+}
+blockquote{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+    border: 2px solid yellow;
+    
+    color: rgb(0, 4, 255);
+    border-left: 7px solid yellowgreen;
+    background-color: rgb(217, 191, 126);
+    
+
+}
+cite{
+    font-size: 1.5rem;
+}
+.bigbold{
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+.ul2 a:link{
+    text-decoration: none;
+    color: rgb(36, 237, 36);
+}
+a:visited{
+    color:rgb(245, 245, 242);
+    font-weight: normal;
+}
+a:hover{
+    color: rgb(15, 14, 13);
+    text-decoration: underline;
+    background-color: aqua;
+}
+a.harvard:link{
+color: orange;
+}
+h1, h2, h3{
+    color: orange;
+}
+#myid{
+    color: orange;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+nav li{
+text-decoration: none;
+display: inline-block;
+margin-right: 7rem;
+
+
+
+
+}
+.box1{
+   
+   font-size: 1.2rem;
+   text-align: left;
+}
+
+.ul1 a:link{
+color: aliceblue;
+;
+}
+  
+
+.ul1 a:hover{
+    background-color: yellow;
+    color: red;
+    padding: 0;
+}
+.ul3{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    font-size: large;
+    color: aqua;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.ul3 li{
+    border: 2px solid yellowgreen;
+    flex-basis: 10%;
+}

@@ -1,0 +1,134 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color:grey ;
+	background-image: url(../img/galaxy.jpg);}
+    
+h1,  h3, legend{
+	font-family: 'Nothing You Could Do', cursive;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: rgb(208, 201, 194);
+}
+p, [for="abductiontype"] {
+	margin-bottom: 1rem;
+	margin-top: 2rem;
+}
+section {
+	flex-basis: 57%;
+	margin-right: 10%;
+}
+aside {
+	flex-basis: 33%;
+}
+fieldset{
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-bottom: 2rem;
+	
+}
+legend{
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin-top: 1.5rem;
+	margin-bottom: 1rem;
+}
+label{
+	
+	display: block;
+	padding: .3rem;
+}
+textarea{
+	height: 10rem;
+	padding: 1rem;
+}
+select{
+	font-size: 1rem;
+}
+button{
+	font-size: 1.2rem;
+	margin: 2rem 0;
+	background-color: rgb(2, 111, 2);
+	border: none;
+	padding: .5rem 1rem;
+	border-radius: 10px;
+	color: aliceblue;
+}
+button:hover{
+	background-color: white;
+	color: rgb(133, 207, 36);
+	font-weight: bold;
+}
+input:not([type="radio"]):not([type="checkbox"]), textarea, select{
+	display: block;
+	margin-bottom: 2rem;
+	width: 20rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1rem;
+	padding: 0 1rem;
+
+}
+nav{
+	display:flex;
+	text-align: center;
+	background-color:rgb(244, 198, 113);
+	
+	
+	
+}
+  nav li{
+	text-decoration: none;
+	list-style: none;
+	justify-content:space-between;
+	padding: 1rem;
+	
+	
+	
+}
+a{
+	
+	color: black;
+	margin-right: 5rem;
+	padding: 0;
+	margin-top: 3rem;
+	font-size: 1.2rem;
+	
+}
+ul{
+	margin-left: 9.5rem;
+}
+a:hover{
+	background-color: aqua;
+	color: black;
+}
+.box1{
+	width: 80%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
