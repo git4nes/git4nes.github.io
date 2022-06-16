@@ -8,7 +8,6 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	margin: 0;
 	padding: 0;
-	background-color:grey ;
 	background-image: url(../img/galaxy.jpg);}
     
 h1,  h3, legend{
@@ -21,7 +20,7 @@ h1,  h3, legend{
 	padding: 1em;
 	display: flex;
 	flex-flow: row nowrap;
-	background-color: rgb(208, 201, 194);
+	background-color:white;
 }
 p, [for="abductiontype"] {
 	margin-bottom: 1rem;
@@ -92,7 +91,7 @@ nav{
   nav li{
 	text-decoration: none;
 	list-style: none;
-	justify-content:space-between;
+	justify-content:space-evenly;
 	padding: 1rem;
 	
 	
@@ -105,14 +104,16 @@ a{
 	padding: 0;
 	margin-top: 3rem;
 	font-size: 1.2rem;
+	text-decoration: none;
 	
 }
 ul{
-	margin-left: 9.5rem;
+	
 }
 a:hover{
-	background-color: aqua;
-	color: black;
+	
+	color: rgb(45, 238, 15);
+	text-decoration: underline;
 }
 .box1{
 	width: 80%;
